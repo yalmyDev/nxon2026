@@ -1,0 +1,38 @@
+.side-container {display:flex;flex-direction:column;width:100vw;height:100vh;background-color:#1e1e1e;color:#cccccc;overflow:hidden;}
+.main-viewport {display:flex;flex:1;overflow:hidden;}
+.activity-bar {width:50px;background-color:#333333;display:flex;flex-direction:column;align-items:center;padding-top:10px;}
+.activity-bar .icon {font-size:24px;margin-bottom:20px;cursor:pointer;}
+.panel-content {padding:10px;height:100%;}
+.panel-sidebar {background-color:#252526;}
+.panel-editor {padding:10px;height:100%;background-color:#1e1e1e;}
+.panel-panel {background-color:#1e1e1e; border-top:1px solid #3c3c3c;}
+.resize-handle-vertical {width:4px;background-color:transparent;transition:background-color 0.2s;}
+.resize-handle-vertical:hover {background-color:#007acc;}
+.resize-handle-horizontal {height:4px;background-color:transparent;transition:background-color 0.2s;}
+.resize-handle-horizontal:hover {background-color:#007acc;}
+.status-bar {height:22px;background-color:#007acc;color:white;display:flex;justify-content:space-between;align-items:center;padding:0 10px;font-size:12px;}
+.sidebar-header {padding:10px;font-size:11px;font-weight:bold;text-transform:uppercase;color:#858585;}
+.file-tree-container {display:flex;flex-direction:column;gap:2px;}
+.file-item {display:flex;align-items:center;padding:4px 0;cursor:pointer;font-size:13px;white-space:nowrap;}
+.file-item:hover {background-color:#2a2d2e;}
+.file-icon {margin-right:6px;font-size:14px;}
+.file-name {color:#cccccc;}
+/* Resize Handles */
+.resize-handle-vertical { width:3px; background-color:#252526; }
+.resize-handle-vertical:hover { background-color:#007acc; }
+.resize-handle-horizontal { height:3px; background-color:#252526; }
+.resize-handle-horizontal:hover { background-color:#007acc; }
+
+/* Status Bar */
+.status-bar {height:22px;background-color:#007acc;color:white;display:flex;justify-content:space-between;align-items:center;padding:0 10px;font-size:12px;}
+.panel-ai {background-color:#252526;display:flex;flex-direction:column;}
+.ai-chat-container {display:flex;flex-direction:column;height:calc(100% - 35px);padding:10px;}
+.chat-messages {flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:10px;margin-bottom:10px;}
+.message {padding:8px 12px;border-radius:6px;font-size:13px;max-width:90%;}
+.message.ai {background-color:#37373d;color:#cccccc;align-self:flex-start;}
+.chat-input-wrapper {display:flex;gap:5px;}
+.chat-input-wrapper input {flex:1;background-color:#3c3c3c;border:1px solid #555;color:white;padding:8px;border-radius:4px;outline:none;}
+.chat-input-wrapper button {background-color:#007acc;color:white;border:none;padding:0 15px;border-radius:4px;cursor:pointer;}
+
+.sidemenu-bar{display:flex;flex-direction:column;gap:18px;padding:10px;}
+.sidemenu-bar > div{width:24px;height:24px;}
